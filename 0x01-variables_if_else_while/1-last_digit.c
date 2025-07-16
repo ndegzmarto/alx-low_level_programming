@@ -23,7 +23,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 
-
+	/* convert int to str */
 	sprintf(str, "%d", n);
 
 	lastDigitIndex = strlen(str) - 1;
